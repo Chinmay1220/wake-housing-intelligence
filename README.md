@@ -2,6 +2,8 @@
 
 An end-to-end data project that tracks housing affordability and homelessness across North Carolina — with a focus on Wake County (Raleigh). Built to mirror the data environment at Wake County's Department of Housing Affordability and Community Revitalization (HACR).
 
+Live application - https://wake-housing-intelligence-gfgyydu7fh4kpyg8ghxsbd.streamlit.app/
+
 ## What This Project Does
 
 1. **Processes 135,000+ rows** of HUD and Census-style housing and homelessness data
