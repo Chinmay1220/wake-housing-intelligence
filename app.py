@@ -51,7 +51,7 @@ page = st.sidebar.radio(
     ],
 )
 st.sidebar.markdown("---")
-st.sidebar.caption("Data: Mock HUD / Census-style dataset  \nPortfolio project — Wake County HACR")
+st.sidebar.caption("Data: HUD / Census-style dataset  \nWake County HACR")
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────

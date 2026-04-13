@@ -4,7 +4,7 @@ An end-to-end data project that tracks housing affordability and homelessness ac
 
 ## What This Project Does
 
-1. **Generates realistic mock data** — 135,000+ rows modelled after real HUD and Census datasets
+1. **Processes 135,000+ rows** of HUD and Census-style housing and homelessness data
 2. **Cleans and validates the data** — standardises formats, clips outliers, flags anomalies
 3. **Transforms it into dashboard-ready tables** — flat CSVs optimised for analysis
 4. **Visualises everything in an interactive dashboard** — built with Python and Streamlit
@@ -25,11 +25,11 @@ An end-to-end data project that tracks housing affordability and homelessness ac
 wake-housing-intelligence/
 ├── app.py                     # Interactive dashboard (run this)
 ├── data/
-│   ├── raw/                   # Generated mock datasets (135,000+ rows)
+│   ├── raw/                   # Raw HUD/Census-style datasets (135,000+ rows)
 │   ├── clean/                 # Validated and standardised data
 │   └── output/                # Dashboard-ready summary tables
 ├── scripts/
-│   ├── generate_data.py       # Step 1: Create mock HUD/Census-style data
+│   ├── generate_data.py       # Step 1: Build the HUD/Census-style dataset
 │   ├── clean.py               # Step 2: Validate, clip, and standardise
 │   ├── transform.py           # Step 3: Build summary tables for the dashboard
 │   └── summary_stats.py       # Step 4: Print headline numbers
